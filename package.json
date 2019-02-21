@@ -1,0 +1,26 @@
+{
+  "name": "in-da-zone",
+  "version": "1.0.0",
+  "description": "Fun with Zone.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreuzerk/in-da-zone.git"
+  },
+  "keywords": [
+    "Zone.js",
+    "Playground"
+  ],
+  "author": "Kevin Kreuzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kreuzerk/in-da-zone/issues"
+  },
+  "homepage": "https://github.com/kreuzerk/in-da-zone#readme",
+  "dependencies": {
+    "zone.js": "^0.8.29"
+  }
+}
