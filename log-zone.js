@@ -1,4 +1,4 @@
-export const logZone = {
+var logZoneSpec = {
     onFork: (parentZoneDelegate, currentZone, targetZone, zoneSpec) => {
         console.log('OnFork: ', zoneSpec);
         return parentZoneDelegate.fork(targetZone, zoneSpec);
@@ -28,11 +28,11 @@ export const logZone = {
      * @param applyThis The argument passed into the `run` method.
      * @param applyArgs The argument passed into the `run` method.
      * @param source The argument passed into the `run` method.
-     */
     onInvoke: (parentZoneDelegate, currentZone, targetZone, delegate, applyThis, applyArgs, source) => {
-        console.log('OnInvoke: ', source);
+        console.log('OnInvoke: ', );
         return parentZoneDelegate.invokeTask(targetZone, delegate, applyThis, applyArgs);
     },
+     */
 
     /**
      * Allows interception of the error handling.
